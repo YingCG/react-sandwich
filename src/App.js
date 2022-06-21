@@ -1,10 +1,10 @@
-import SearchBox from './SearchBox';
+import CreateSandwich from './components/CreateSanwich/CreateSandwich';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <SearchBox/>
+      <CreateSandwich/>
     </div>
   );
 }

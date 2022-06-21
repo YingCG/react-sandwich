@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+.sandwich{
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bun{
+  width: 100%;
+  height: 85px;
+  border-radius: 100px;
+  background-color: #FFCC8F;
+}
+
+
+
+.lettuce{
+  width: 100%;
+  position: relative;
+  /* top: -40px; */
+  z-index: 1;
+  /* bottom: 0px;
+  height: 55px; */
+}
+
+.tomatos{
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+#tomato{
+  background-color: tomato;
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sauce{
+  width: 70%;
+  background-color: #990000;
+  border-radius: 15px;
+}
+
+.protein{
+  width: 85%;
+  height: 80px;
+  background-color: chocolate;
+  border-radius: 50px;
+}
+
+.cheese{
+  width: 100%;
+  background-color: #FFC54D;
+}
