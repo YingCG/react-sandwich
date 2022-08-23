@@ -1,6 +1,7 @@
 import React from 'react'
 import Bun from './Bun'
 import Cheese from './Cheese'
+import Ingredient from './Ingredient'
 import Lettuce from './Lettuce'
 import Protein from './Protein'
 import Sauce from './Sauce'
@@ -19,6 +20,7 @@ export default function CreateSandwich() {
         <Cheese />
         <Bun />
       </div>
+      <Ingredient />
     </>
   )
 }

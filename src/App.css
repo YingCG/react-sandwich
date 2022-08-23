@@ -37,41 +37,36 @@
   }
 }
 
-.sandwich{
-  margin-left: 25%;
-  margin-right: 25%;
-  text-align: center;
+.sandwich {
+  margin: auto;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
 }
 
-.bun{
+.bun {
   width: 100%;
   height: 85px;
   border-radius: 100px;
-  background-color: #FFCC8F;
+  background-color: #ffcc8f;
 }
 
-
-
-.lettuce{
+.lettuce {
   width: 100%;
-  position: relative;
-  /* top: -40px; */
-  z-index: 1;
-  /* bottom: 0px;
-  height: 55px; */
+  height: 5rem;
 }
 
-.tomatos{
+.tomatoes {
   display: flex;
   text-align: center;
   width: 100%;
 }
 
-#tomato{
+#tomato {
   background-color: tomato;
   width: 100%;
   height: 30px;
@@ -80,20 +75,26 @@
   padding-right: 20px;
 }
 
-.sauce{
+.sauce {
   width: 70%;
   background-color: #990000;
   border-radius: 15px;
 }
 
-.protein{
+.protein {
   width: 85%;
   height: 80px;
   background-color: chocolate;
   border-radius: 50px;
 }
 
-.cheese{
+.cheese {
   width: 100%;
-  background-color: #FFC54D;
+  background-color: #ffc54d;
+}
+
+.ingredient {
+  width: 300px;
+  height: 300px;
+  background-color: #f7e2d6;
 }
